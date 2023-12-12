@@ -1,0 +1,106 @@
+/* Write your CSS here */
+
+.main_container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.withdrawal_contianer {
+  background-color: #150b3e;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  padding: 40px;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .withdrawal_contianer {
+    padding: 60px 180px 60px 180px;
+  }
+}
+
+/* profile styling */
+
+.profile_container {
+  display: flex;
+  align-items: center;
+}
+
+.profile_photo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+}
+
+.profile_photo {
+  font-size: 40px;
+  color: #7c3aed;
+}
+
+.profile_name {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #d4d2db;
+}
+
+/* balance contanier styling */
+
+.balance_container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-top: 14px;
+}
+
+.balance {
+  font-size: 30px;
+  color: #585076;
+  font-weight: 700;
+}
+
+.insufficent_balance {
+  color: red;
+}
+
+.amount {
+  color: #d4d2db;
+  font-size: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .amount {
+    font-size: 40px;
+  }
+}
+
+.in_rupees {
+  font-size: 16px;
+  color: #585076;
+  font-weight: 500;
+}
+
+/* denomintaion list contianer styling */
+
+.denominations_list_container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  list-style-position: initial;
+}
+
+.withdrow_text {
+  color: #d4d2db;
+  font-weight: bold;
+}
+
+.choose_numbers_text {
+  color: #585076;
+  font-weight: 600;
+  font-size: 25px;
+}

@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.denomination_value {
+  border: 3px solid #c4c4c4;
+  background-color: #585076;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 8px;
+  min-width: 220px;
+  max-height: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .denomination_value {
+    min-width: 500px;
+  }
+}
